@@ -1,0 +1,9 @@
+// Font import
+@mixin font($file, $type, $name) {
+  @font-face {
+    font-family: $name;
+    src: url($file) format($type);
+    font-weight: normal;
+    font-style: normal;
+  }
+}
