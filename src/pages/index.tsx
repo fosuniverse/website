@@ -1,17 +1,9 @@
+import classnames from 'classnames';
 import { graphql } from 'gatsby';
+import { Container } from 'reactstrap';
 import * as React from 'react';
-import * as styles from './Index.module.scss';
-
-interface IndexPageProps {
-  data: {
-    site: {
-      siteMetadata: {
-        name: string;
-        tagline: string;
-      },
-    },
-  };
-}
+// Relative imports
+import { IndexPageProps } from '../types';
 
 export const indexPageQuery = graphql`
   query IndexPageQuery {
@@ -33,10 +25,10 @@ export default class IndexPage extends React.Component<IndexPageProps, {}> {
     } = this.props.data.site.siteMetadata;
 
     return (
-      <div className={styles.Container}>
-        <h1>{name}</h1>
+      <Container className="temp-container mt-5 mx-auto">
+        <h1><i className="fas fa-globe-africa mr-2" />{name}</h1>
         <p>{tagline}</p>
-      </div>
+      </Container>
     );
   }
 }
