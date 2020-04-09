@@ -1,0 +1,28 @@
+// Mixins
+@import "mixins";
+
+// FontAwesome icons
+@import "vendor/fontawesome/scss/fontawesome.scss";
+@import "vendor/fontawesome/scss/brands.scss";
+@import "vendor/fontawesome/scss/solid.scss";
+@import "vendor/fontawesome/scss/regular.scss";
+// Nucleo icons
+@import "vendor/nucleo/nucleo.scss";
+// Fonts
+@import "vendor/poppins/index.scss";
+// Pages
+@import "pages/index";
+
+// .Container {
+//   max-width: 60rem;
+//   margin: 3rem auto 0;
+//   font-family: sans-serif;
+  
+//   h1 {
+//     color: #333;
+//   }
+  
+//   p {
+//     color: #aaa;
+//   }
+// }
