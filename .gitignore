@@ -58,7 +58,12 @@ typings/
 .env
 
 .cache/
-public
 yarn-error.log
 
 README.html
+public/*.html
+public/*.js
+public/*.js.map
+public/*.json
+public/*.css
+public/page-data
