@@ -1,0 +1,25 @@
+// @font-face {
+//   font-family: 'Poppins Black';
+//   src: url('/fonts/poppins/Poppins-Black.ttf');
+//   src: url('/fonts/poppins/Poppins-Black.ttf') format('truetype');
+//   font-weight: normal;
+//   font-style: normal;
+// }
+
+// Font imports
+@include font('/fonts/poppins/Black.ttf', 'truetype', 'Poppins Black');
+@include font('/fonts/poppins/Bold.ttf', 'truetype', 'Poppins Bold');
+@include font('/fonts/poppins/Light.ttf', 'truetype', 'Poppins Light');
+@include font('/fonts/poppins/Medium.ttf', 'truetype', 'Poppins Medium');
+@include font('/fonts/poppins/Regular.ttf', 'truetype', 'Poppins Regular');
+@include font('/fonts/poppins/SemiBold.ttf', 'truetype', 'Poppins SemiBold');
+@include font('/fonts/poppins/Thin.ttf', 'truetype', 'Poppins Thin');
+
+// Font Variables
+$pop-black: "Poppins Black";
+$pop-bold: "Poppins Bold";
+$pop-light: "Poppins Light";
+$pop-medium: "Poppins Medium";
+$pop-regular: "Poppins Regular";
+$pop-semibold: "Poppins SemiBold";
+$pop-thin: "Poppins Thin";
