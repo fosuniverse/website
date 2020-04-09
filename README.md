@@ -1,4 +1,8 @@
-# Gatsby Starter: Typescript + SASS
+# Open Source Community Ghana
+
+[![Build Status](https://travis-ci.com/oscghana/website.svg?branch=master)](https://travis-ci.com/oscghana/website)
+
+### Gatsby Starter: Typescript + SASS
 Starter with the essentials needed for a [Gatsby](https://www.gatsbyjs.org/) site. This setup includes:
 
 - Typescript
